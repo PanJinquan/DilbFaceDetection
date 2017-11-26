@@ -18,7 +18,7 @@ DetectFeature::DetectFeature(full_object_detection shape) {
 void DetectFeature::setShape(full_object_detection shape){
     this->shape=shape;
 }
-full_object_detection DetectFeature::gstShape(){
+full_object_detection DetectFeature::getShape(){
     return  this->shape;
 }
 void DetectFeature::faceFeature(cv::Mat &image,full_object_detection shape){

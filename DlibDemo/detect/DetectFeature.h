@@ -25,7 +25,7 @@ public:
 public:
     void showLandmark(cv::Mat &image, full_object_detection shape,bool showNum);
     void setShape(full_object_detection shape);
-    full_object_detection gstShape();
+    full_object_detection getShape();
     void faceFeature(cv::Mat &image,full_object_detection shape);
 
 private:

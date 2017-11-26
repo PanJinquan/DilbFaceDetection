@@ -48,6 +48,7 @@ int main(int argc, char** argv)
 	//****************************************end *******************************************
 
 	DEBUG_IMSHOW("image", pSrcImage, shape);
+	
 	cout << "project finished...";
 	cv::waitKey(0);
 }
